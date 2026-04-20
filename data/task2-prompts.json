@@ -1,0 +1,127 @@
+[
+  {
+    "id": "t2-opinion-001",
+    "essayType": "opinion",
+    "prompt": "Some people believe that governments should invest heavily in space exploration, while others think that money should be spent on more pressing issues on Earth. To what extent do you agree or disagree? Write at least 250 words."
+  },
+  {
+    "id": "t2-opinion-002",
+    "essayType": "opinion",
+    "prompt": "Many people argue that social media platforms have done more harm than good to modern society. To what extent do you agree or disagree? Write at least 250 words."
+  },
+  {
+    "id": "t2-opinion-003",
+    "essayType": "opinion",
+    "prompt": "Some educators believe that university education should be free for all students and funded entirely by the government. To what extent do you agree or disagree? Write at least 250 words."
+  },
+  {
+    "id": "t2-opinion-004",
+    "essayType": "opinion",
+    "prompt": "It has been suggested that people who lead unhealthy lifestyles should be required to pay higher health insurance premiums. To what extent do you agree or disagree? Write at least 250 words."
+  },
+  {
+    "id": "t2-opinion-005",
+    "essayType": "opinion",
+    "prompt": "Some people think that strict laws against littering and environmental damage are more effective than education campaigns in protecting the natural environment. To what extent do you agree or disagree? Write at least 250 words."
+  },
+  {
+    "id": "t2-discussion-001",
+    "essayType": "discussion",
+    "prompt": "Some people believe that remote working benefits both employees and employers, while others argue that working from an office is essential for productivity and collaboration. Discuss both views and give your own opinion. Write at least 250 words."
+  },
+  {
+    "id": "t2-discussion-002",
+    "essayType": "discussion",
+    "prompt": "Some argue that children should be taught to be competitive from an early age, while others believe that cooperation is a more valuable skill to develop. Discuss both views and give your own opinion. Write at least 250 words."
+  },
+  {
+    "id": "t2-discussion-003",
+    "essayType": "discussion",
+    "prompt": "Some people think that globalisation has led to the loss of cultural identity, while others believe it has enriched societies by encouraging cultural exchange. Discuss both views and give your own opinion. Write at least 250 words."
+  },
+  {
+    "id": "t2-discussion-004",
+    "essayType": "discussion",
+    "prompt": "Some people believe that violent crime should always result in imprisonment, while others think that rehabilitation programmes are a more effective approach. Discuss both views and give your own opinion. Write at least 250 words."
+  },
+  {
+    "id": "t2-discussion-005",
+    "essayType": "discussion",
+    "prompt": "Some people think that public transport systems should be entirely free of charge, while others argue that passengers should continue to pay fares. Discuss both views and give your own opinion. Write at least 250 words."
+  },
+  {
+    "id": "t2-problem-solution-001",
+    "essayType": "problem-solution",
+    "prompt": "In many countries, young people are spending increasing amounts of time using the internet and electronic devices rather than engaging in physical activities. What problems does this cause, and what measures could be taken to address them? Write at least 250 words."
+  },
+  {
+    "id": "t2-problem-solution-002",
+    "essayType": "problem-solution",
+    "prompt": "Many urban areas are experiencing a severe shortage of affordable housing for low- and middle-income residents. What are the main causes of this problem, and what solutions could governments and communities implement? Write at least 250 words."
+  },
+  {
+    "id": "t2-problem-solution-003",
+    "essayType": "problem-solution",
+    "prompt": "Levels of food waste in developed nations have reached alarming proportions, placing a significant strain on the environment and natural resources. What are the causes of this issue, and what steps can individuals and governments take to reduce it? Write at least 250 words."
+  },
+  {
+    "id": "t2-problem-solution-004",
+    "essayType": "problem-solution",
+    "prompt": "In many societies, an ageing population is putting considerable pressure on healthcare systems and public finances. What problems does this demographic shift cause, and what measures could be taken to manage these challenges? Write at least 250 words."
+  },
+  {
+    "id": "t2-problem-solution-005",
+    "essayType": "problem-solution",
+    "prompt": "The spread of misinformation through online news platforms and social media is an increasing concern in modern democracies. What are the causes of this problem, and what solutions could be adopted by governments, technology companies, and individuals? Write at least 250 words."
+  },
+  {
+    "id": "t2-two-part-001",
+    "essayType": "two-part",
+    "prompt": "In recent decades, consumerism has become a dominant feature of many societies, with people buying more goods than ever before. Why has consumer culture grown so rapidly, and what effects does excessive consumption have on individuals and the environment? Write at least 250 words."
+  },
+  {
+    "id": "t2-two-part-002",
+    "essayType": "two-part",
+    "prompt": "Many young people today choose to move to large cities rather than remain in rural areas or small towns. Why is this migration happening, and what can governments do to make rural areas more attractive to young people? Write at least 250 words."
+  },
+  {
+    "id": "t2-two-part-003",
+    "essayType": "two-part",
+    "prompt": "In many countries, levels of stress and burnout among workers have risen significantly over the past two decades. Why is workplace stress becoming more prevalent, and what responsibilities do employers and employees each have in addressing this issue? Write at least 250 words."
+  },
+  {
+    "id": "t2-two-part-004",
+    "essayType": "two-part",
+    "prompt": "The number of languages that are spoken by fewer and fewer people is growing every year, and many linguists fear that half the world's languages could disappear within a century. Why are so many languages becoming extinct, and what can be done to preserve linguistic diversity? Write at least 250 words."
+  },
+  {
+    "id": "t2-two-part-005",
+    "essayType": "two-part",
+    "prompt": "Technological automation is transforming many industries and changing the nature of work. Why are some people concerned about this development, and how can workers and governments prepare for the changes that automation will bring? Write at least 250 words."
+  },
+  {
+    "id": "t2-advantages-disadvantages-001",
+    "essayType": "advantages-disadvantages",
+    "prompt": "Online shopping has become the preferred method of purchasing goods for millions of people around the world. Discuss the advantages and disadvantages of this trend, and give your own view on whether the benefits outweigh the drawbacks. Write at least 250 words."
+  },
+  {
+    "id": "t2-advantages-disadvantages-002",
+    "essayType": "advantages-disadvantages",
+    "prompt": "In some countries, children are starting formal schooling at a younger age than in the past. Do the advantages of early formal education outweigh the disadvantages? Write at least 250 words."
+  },
+  {
+    "id": "t2-advantages-disadvantages-003",
+    "essayType": "advantages-disadvantages",
+    "prompt": "The widespread adoption of electric vehicles is being promoted as a key strategy in the effort to reduce air pollution and combat climate change. Discuss the advantages and disadvantages of electric vehicles, and consider whether their benefits outweigh their limitations. Write at least 250 words."
+  },
+  {
+    "id": "t2-advantages-disadvantages-004",
+    "essayType": "advantages-disadvantages",
+    "prompt": "Many news organisations now rely primarily on social media platforms to distribute their content and reach audiences. Discuss the advantages and disadvantages of this shift for both the media industry and news consumers. Write at least 250 words."
+  },
+  {
+    "id": "t2-advantages-disadvantages-005",
+    "essayType": "advantages-disadvantages",
+    "prompt": "International tourism brings significant economic benefits to many countries but also creates a range of social and environmental problems. Do the advantages of international tourism outweigh the disadvantages? Write at least 250 words."
+  }
+]
