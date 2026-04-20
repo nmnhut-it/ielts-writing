@@ -16,8 +16,24 @@ for Academic Task 1 and Task 2 writing practice with strict AI grading.
 
 ## Status
 
-Pre-implementation — see `docs/superpowers/specs/` for the design doc and
-implementation plan.
+MVP complete. Both Task 1 and Task 2 pages work end-to-end with strict Gemini
+grading. Seed content: 20 T1 charts + 25 T2 prompts. 26 unit tests + 3 E2E
+smoke tests all green.
+
+## Running it
+
+```bash
+# Serve statically from the repo root
+python -m http.server 8000
+# open http://localhost:8000/ and configure your Gemini API key
+```
+
+## Tests
+
+```bash
+npm test           # 26 unit tests (pure helpers)
+npm run test:e2e   # 3 Playwright smoke tests (first run downloads chromium)
+```
 
 ## Stack
 
