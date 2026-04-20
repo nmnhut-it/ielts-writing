@@ -1,0 +1,97 @@
+/* styles/lessons.css — layout for the writing-lessons page */
+
+.lessons-hero { padding: 40px 0 20px; text-align: center; }
+.lessons-hero h1 { font-family: var(--font-display); font-size: clamp(1.8rem, 4vw, 2.4rem); margin-bottom: 6px; }
+.lessons-hero p { color: var(--muted); }
+
+.module-tabs {
+    display: flex; gap: 6px; margin: 24px 0 20px;
+    border-bottom: 1px solid var(--border);
+    overflow-x: auto; scrollbar-width: thin;
+}
+.module-tab {
+    padding: 10px 14px; border: none; background: transparent;
+    color: var(--muted); font-family: var(--font-body); font-size: 0.875rem;
+    font-weight: 500; cursor: pointer; border-bottom: 3px solid transparent;
+    white-space: nowrap;
+}
+.module-tab:hover { color: var(--ink); }
+.module-tab.active { color: var(--ink); border-bottom-color: var(--accent); }
+
+.module-panel { display: none; }
+.module-panel.active { display: block; }
+
+.module-panel h2 { font-family: var(--font-display); font-size: 1.6rem; margin-bottom: 6px; }
+.module-panel .module-lede { color: var(--muted); margin-bottom: 24px; font-size: 1rem; }
+
+.lesson-block { padding: 20px 24px; margin-bottom: 16px; }
+.lesson-block h3 {
+    font-family: var(--font-display); font-size: 1.2rem;
+    margin-bottom: 10px; color: var(--ink);
+}
+.lesson-block h4 {
+    font-size: 0.95rem; font-weight: 600;
+    margin: 14px 0 6px; color: var(--ink);
+}
+.lesson-block p { margin-bottom: 10px; font-size: 0.95rem; }
+.lesson-block ul, .lesson-block ol { padding-left: 22px; margin-bottom: 10px; }
+.lesson-block li { margin-bottom: 6px; font-size: 0.925rem; }
+.lesson-block code {
+    background: var(--cream); padding: 1px 6px; border-radius: 4px;
+    font-size: 0.85rem; font-family: inherit;
+}
+
+.phrase-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 10px; margin: 12px 0;
+}
+.phrase-card {
+    padding: 10px 14px; background: var(--cream); border-radius: 8px;
+    font-size: 0.875rem; border-left: 3px solid var(--ocean);
+}
+.phrase-card strong { color: var(--ink); }
+
+.example-box {
+    padding: 12px 16px; margin: 12px 0;
+    background: rgba(22,128,60,0.06); border-left: 3px solid var(--forest);
+    border-radius: 6px; font-size: 0.9rem;
+}
+.example-box.bad {
+    background: rgba(193,57,43,0.06); border-left-color: var(--danger);
+}
+.example-label {
+    display: inline-block; padding: 2px 8px; border-radius: 4px;
+    font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em;
+    margin-bottom: 4px; text-transform: uppercase;
+}
+.example-label.good { background: var(--forest); color: white; }
+.example-label.bad { background: var(--danger); color: white; }
+
+.structure-diagram {
+    display: grid; gap: 8px; margin: 14px 0;
+    grid-template-columns: 80px 1fr;
+}
+.structure-diagram .s-label {
+    padding: 10px; background: var(--ink); color: var(--paper);
+    border-radius: 6px; text-align: center; font-weight: 600; font-size: 0.8rem;
+}
+.structure-diagram .s-content {
+    padding: 10px 14px; background: var(--cream); border-radius: 6px;
+    font-size: 0.9rem;
+}
+
+table.band-table {
+    width: 100%; border-collapse: collapse; margin: 14px 0;
+    font-size: 0.875rem;
+}
+table.band-table th, table.band-table td {
+    border: 1px solid var(--border); padding: 8px 12px; text-align: left;
+}
+table.band-table th { background: var(--cream); font-weight: 600; }
+
+.tip-callout {
+    padding: 14px 18px; margin: 14px 0;
+    background: rgba(37,99,235,0.06); border-left: 3px solid var(--ocean);
+    border-radius: 6px; font-size: 0.9rem;
+}
+.tip-callout strong { color: var(--ocean); }
