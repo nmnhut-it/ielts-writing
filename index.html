@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IELTS Writing Practice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+<nav>
+    <div class="container nav-inner">
+        <a href="index.html" class="nav-brand">IELTS Writing</a>
+        <button class="btn btn-secondary" id="apiKeyBtn" type="button">API key</button>
+    </div>
+</nav>
+
+<main class="container">
+    <section class="hero">
+        <h1>Academic Writing Practice</h1>
+        <p>Timed practice with strict AI grading — write on paper, upload a photo, get bands.</p>
+    </section>
+
+    <section class="task-grid">
+        <a class="card task-card" href="task1-academic.html">
+            <h2>Task 1</h2>
+            <div class="task-meta">20 min · ≥ 150 words · chart description</div>
+            <p class="task-body">Describe a bar chart, line graph, pie chart, or table. Summarise the main features.</p>
+        </a>
+        <a class="card task-card" href="task2.html">
+            <h2>Task 2</h2>
+            <div class="task-meta">40 min · ≥ 250 words · essay</div>
+            <p class="task-body">Write an essay on a given topic — opinion, discussion, problem-solution, and more.</p>
+        </a>
+    </section>
+
+    <section class="history-section">
+        <h3>Past attempts</h3>
+        <div class="history-tabs">
+            <button class="history-tab active" data-task="t1" type="button">Task 1</button>
+            <button class="history-tab" data-task="t2" type="button">Task 2</button>
+        </div>
+        <div id="historyPanel"></div>
+    </section>
+</main>
+
+<div class="api-modal-backdrop" id="apiModal" role="dialog" aria-labelledby="apiTitle">
+    <div class="api-modal">
+        <h3 id="apiTitle">Gemini API key</h3>
+        <p style="font-size:0.875rem;color:var(--muted);">Get a free key from <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">Google AI Studio</a>. Stored locally in your browser.</p>
+        <input type="password" id="apiKeyInput" placeholder="AIza..." autocomplete="off">
+        <div class="api-modal-actions">
+            <button class="btn btn-secondary" id="apiCancel" type="button">Cancel</button>
+            <button class="btn btn-primary" id="apiSave" type="button">Save</button>
+        </div>
+    </div>
+</div>
+
+<script src="scripts/utils/markdownSplit.js"></script>
+<script src="scripts/workHistory.js"></script>
+<script src="scripts/index.js"></script>
+</body>
+</html>
