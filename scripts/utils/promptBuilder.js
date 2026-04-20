@@ -82,6 +82,20 @@ Final TA, CC, LR, GRA. Overall = average rounded to nearest 0.5
 - You wrote "exact quote" — this is a [TA/CC/LR/GRA] issue. Try: "corrected version" — and here is why.
 - (2-3 bullets; every bullet MUST contain a verbatim quote + a concrete fix)
 
+## Inline corrections
+
+Paste the ENTIRE original transcript verbatim, then mark changes inline using these exact token brackets:
+- Wrap removals in ⟪del:original text⟫ (the exact words the student wrote)
+- Wrap insertions or replacements in ⟪ins:new text⟫
+- Adjacent ⟪del:X⟫⟪ins:Y⟫ means "replace X with Y"
+- Only mark real errors (grammar, spelling, awkward word choice, broken cohesion, unclear phrasing). Do NOT rewrite stylistically correct text.
+- Aim for 3–10 corrections on a typical low-to-mid band response; fewer if the text is already strong.
+- Do not use any other markup in this section — no bold, italics, or headings inside the transcript.
+
+Example pattern: The chart ⟪del:show⟫⟪ins:shows⟫ that housing is the ⟪del:biggest⟫⟪ins:largest⟫ expense⟪ins:, accounting for around 40%⟫.
+
+(your corrected transcript below, preserving every word of the original except those wrapped in ⟪del:⟫)
+
 ## Your focus for next time
 ONE sentence. The single most impactful thing to practise, targeting the weakest criterion.
 

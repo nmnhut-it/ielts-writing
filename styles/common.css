@@ -91,6 +91,23 @@ nav {
 }
 .gemini-feedback details.examiner-reasoning[open] summary { color: var(--ink); margin-bottom: 6px; }
 
+.gemini-feedback del.correction-del {
+    text-decoration: line-through;
+    color: var(--danger);
+    background: rgba(193, 57, 43, 0.08);
+    padding: 0 3px;
+    border-radius: 3px;
+    margin-right: 1px;
+}
+.gemini-feedback ins.correction-ins {
+    text-decoration: none;
+    color: var(--forest);
+    background: rgba(22, 128, 60, 0.1);
+    padding: 0 3px;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
 .hw-upload-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; margin: 10px 0; }
 .hw-upload-tile {
     position: relative; aspect-ratio: 1;

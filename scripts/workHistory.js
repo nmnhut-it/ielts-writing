@@ -79,7 +79,10 @@ function markdownToHtmlSafe(md) {
         .replace(/\n{2,}/g, '</p><p>')
         .replace(/\n/g, '<br>')
         .replace(/^/, '<p>').replace(/$/, '</p>')
-        .replace(/<p>(<h\d|<ul|<table|<details)/g, '$1').replace(/(<\/h\d>|<\/ul>|<\/table>|<\/details>)<\/p>/g, '$1');
+        .replace(/<p>(<h\d|<ul|<table|<details)/g, '$1').replace(/(<\/h\d>|<\/ul>|<\/table>|<\/details>)<\/p>/g, '$1')
+        // Track-changes tokens → <del>/<ins> (Unicode brackets survive the HTML escape above)
+        .replace(/⟪del:([^⟫]+)⟫/g, '<del class="correction-del">$1</del>')
+        .replace(/⟪ins:([^⟫]+)⟫/g, '<ins class="correction-ins">$1</ins>');
 }
 
 const api = { saveAttempt, loadAttempts, renderHistoryPanel, markdownToHtmlSafe, setHTML };

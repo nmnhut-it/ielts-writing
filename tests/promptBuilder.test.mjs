@@ -60,3 +60,13 @@ test('OCR prompt asks for verbatim transcription', () => {
     assert.ok(/verbatim|exactly as written/i.test(p));
     assert.ok(/illegible/i.test(p));
 });
+
+test('both prompts include Inline corrections section with track-changes tokens', () => {
+    const p1 = buildT1Prompt({ question: 'Q', transcript: 't', wordCount: 160, chartDataText: 'd' });
+    const p2 = buildT2Prompt({ question: 'Q', transcript: 't', wordCount: 260, essayType: 'opinion' });
+    [p1, p2].forEach(p => {
+        assert.ok(p.includes('## Inline corrections'), 'missing Inline corrections heading');
+        assert.ok(p.includes('⟪del:'), 'missing ⟪del: token example');
+        assert.ok(p.includes('⟪ins:'), 'missing ⟪ins: token example');
+    });
+});
