@@ -1,0 +1,6 @@
+.essay-layout { display: grid; gap: 24px; padding: 24px 0; grid-template-columns: 1fr; }
+@media (min-width: 900px) { .essay-layout { grid-template-columns: 1fr 360px; } }
+
+.prompt-card { padding: 24px; }
+.prompt-card .essay-type { display: inline-block; padding: 4px 10px; background: var(--cream); border-radius: 20px; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin-bottom: 12px; }
+.prompt-card .prompt-text { font-family: var(--font-display); font-size: 1.25rem; line-height: 1.4; color: var(--ink); }
